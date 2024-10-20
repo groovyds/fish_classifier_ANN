@@ -10,9 +10,13 @@ This repository contains a deep learning-based project for classifying different
 
 ## Table of Contents
 
-- A
-- b
-- c
+- Project Overview
+- Dataset
+- Preprocessing Steps
+- Model Architecture
+- Results & Evaluation
+- Additional Evaluation
+- Future Work
 
 
 ## Project Overview
@@ -27,7 +31,7 @@ Each class can be found in the "Fish_Dataset" file with their ground truth label
 
 For example, if you want to access the ground truth images of the shrimp in the dataset, the order should be followed is "Fish->Shrimp->Shrimp GT".
 
-## Preprocessing Steps:
+## Preprocessing Steps
 
 Resizing all images to a fixed dimension from (445x590x3) to (128x128x3).
 Normalizing pixel values to the range [0, 1].
